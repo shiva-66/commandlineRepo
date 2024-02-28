@@ -1,0 +1,39 @@
+<html>
+<body>
+<script>
+
+let tarea = document.createElement("textarea"); //<textarea>
+document.body.appendChild(tarea);
+
+let br = document.createElement("br"); //<br>
+document.body.appendChild(br);
+br = document.createElement("br"); //<br>
+document.body.appendChild(br);
+
+let txt1 = document.createElement("input"); //<input type="text"...>
+document.body.appendChild(txt1);
+
+br = document.createElement("br"); //<br>
+document.body.appendChild(br);
+br = document.createElement("br"); //<br>
+document.body.appendChild(br);
+
+let sel1 = document.createElement("select"); //<select><option>
+
+
+let opt1 = document.createElement("option"); //<option>KNR</option>
+opt1.value="KNR";
+opt1.text = "Karimnagar";
+sel1.appendChild(opt1);
+
+let opt2 = document.createElement("option"); //<option>WGL</option>
+opt2.value="WGL";
+opt2.text = "Warangal";
+sel1.appendChild(opt2);
+sel1.id = "distselnbox";
+document.body.appendChild(sel1);
+//sel1.style.display="none";
+
+</script>
+</body>
+</html>	
