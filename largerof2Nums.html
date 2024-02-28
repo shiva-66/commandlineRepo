@@ -1,0 +1,33 @@
+<html>
+<head> 
+<script>
+
+function largest(){
+
+	var a = document.getElementById("first").value;
+	var b = document.getElementById("second").value;	
+	a = parseInt(a); //assignment
+	b = parseInt(b);
+	
+	
+	if(a>b)
+	{
+		alert(a + " is bigger number ");
+	}
+	else
+	{
+		alert(b + " is bigger number ");
+	}
+
+	alert("Thank You!");
+
+}
+
+</script>
+</head>
+<body>
+<input type="text" id="first" />
+<input type="text" id="second" />
+<button onclick="largest()">Find Largest</button>
+</body>
+</html>
